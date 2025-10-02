@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "3671",
+      "title": "Made My First Restful API",
+      "author": "Ifesinachi",
+      "email": "Ifesinachi@Gmail.com",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex quas quia cumque quaerat quasi harum. Dolor nam labore atque eius, facilis architecto, cum impedit iste velit rem, quibusdam ea.",
+      "category": "archivement"
+    },
+    {
+      "id": "4bd5",
+      "title": "Bought my New House",
+      "author": "Ifesinachi",
+      "email": "EKESAMROSE@GMAIL.COM",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex quas quia cumque quaerat quasi harum. Dolor nam labore atque eius, facilis architecto, cum impedit iste velit rem, quibusdam ea.",
+      "category": "archivement"
+    },
+    {
+      "id": "a619",
+      "title": "I am feeling good",
+      "author": "Sam",
+      "email": "EKESAMROSE@GMAIL.COM",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex quas quia cumque quaerat quasi harum. Dolor nam labore atque eius, facilis architecto, cum impedit iste velit rem, quibusdam ea.",
+      "category": "motivational"
+    },
+    {
+      "id": "1f22",
+      "title": "What a happy Day",
+      "author": "Eke",
+      "email": "EKESAMROSE@GMAIL.COM",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex quas quia cumque quaerat quasi harum. Dolor nam labore atque eius, facilis architecto, cum impedit iste velit rem, quibusdam ea.",
+      "category": "motivational"
+    }
+  ]
+}

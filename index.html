@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>JSON work | API server</title>
+  </head>
+  <body>
+    <main>
+      <button class="change btn" id="change">View All Post</button>
+      <form class="inputs" id="inputs">
+        <h2 class="header" id="header">Post your Blog</h2>
+        <input
+          type="text"
+          class="inputTitle"
+          placeholder="Title"
+          id="inputTitle"
+        />
+        <input
+          type="text"
+          class="inputAuthor"
+          placeholder="Author"
+          id="inputAuthor"
+        />
+        <input
+          type="text"
+          class="inputEmail"
+          placeholder="Email"
+          id="inputEmail"
+        />
+        <select name="" id="category">
+          <option value="">Please select a category</option>
+          <option value="social">Social</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="motivational">Motivational</option>
+          <option value="inspirational">Inspirational</option>
+          <option value="archivement">Archivement</option>
+          <option value="">Others</option>
+        </select>
+        <textarea
+          name=""
+          id="inputBody"
+          cols="10"
+          rows="2"
+          class="inputBody"
+          placeholder="Your Post"
+        ></textarea>
+        <button class="btn" id="btn">Post</button>
+      </form>
+    </main>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>

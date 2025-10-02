@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --wt-bg: #ffffff;
+  --panel-bg: #f9fafe;
+  --hd-txt: #484b67;
+  --bd-txt: #9a9aa8;
+  --art-txt: #abacb4;
+  --btn-art: #229444;
+  --btn-hv: #22945bdc;
+  --btn: #22945b;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+main {
+  background: var(--panel-bg);
+  margin: 1em 10em;
+  padding: 3em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: #c5d6d6 0px 10px 20px -8px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 2em;
+  border-radius: 1em;
+
+  background: var(--wt-bg);
+  width: 20em;
+  overflow: hidden;
+  box-shadow: #c5d6d6 0px 10px 20px -8px;
+}
+.inputTitle,
+.inputAuthor,
+.inputEmail,
+.inputBody,
+#category {
+  width: 100%;
+  padding: 0.8em 1em;
+  margin: 0.5em;
+  border-radius: 1em;
+  border: 0.5px solid lightblue;
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+.header {
+  margin-bottom: 0.7em;
+}
+.btn {
+  background: var(--btn);
+  color: var(--panel-bg);
+  border: none;
+  border-radius: 1em;
+  padding: 0.8em;
+  width: 100%;
+  margin-top: 1em;
+  transition: background 0.5s ease;
+}
+.btn:hover {
+  background: var(--btn-hv);
+}
+.btn:active {
+  background: var(--btn-art);
+}
+.change {
+  width: 10em;
+  margin-bottom: 2em;
+}
+@media (max-width: 600px) {
+  main {
+    background: none;
+    box-shadow: none;
+  }
+  .inputs {
+    background: var(--panel-bg);
+    margin: auto 0;
+    box-shadow: #c5d6d6 0px 10px 20px -8px;
+  }
+}
